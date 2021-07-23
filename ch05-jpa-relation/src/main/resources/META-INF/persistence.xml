@@ -13,7 +13,7 @@
             <property name="hibernate.show_sql" value="true" /> <!--실행 쿼리문 출력여부-->
             <property name="hibernate.format_sql" value="true" /> <!-- 쿼리문 정렬 출력여부-->
             <property name="hibernate.use_sql_comments" value="true" /> <!-- 쿼리문 주석 출력여부-->
-            <property name="hibernate.hbm2ddl.auto" value="create" /> <!-- 스키마 자동 생성-->
+            <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- 스키마 자동 생성-->
 
         </properties>
         
